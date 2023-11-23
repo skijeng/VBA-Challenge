@@ -39,7 +39,7 @@ Sub StockAnalysis()
         Cells(4, 15).Value = "Greatest Total Volume"
         
         
-    'Find and print unique tickers in "Ticker" column
+    'Find and print tickers in "Ticker" column
         For i = firstrow To lastrow
             tickers = Cells(i, 1).Value
             tickers2 = Cells(i - 1, 1).Value
